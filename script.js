@@ -24,14 +24,14 @@ worth += worth *(inflationRate / 100);   // ovde ce biti izracunato za onaj broj
 }
  
 worth = worth.toFixed(2); // da zaokruglimo na dve decimale
-let newElement = document.createElement('div'); //formiramo novi element posle sredjujemo
+let newElement = document.createElement('div'); //formiramo novi element 
 
 newElement.className = 'new-value';
 newElement.innerText = ` Danasnjih ${money} eura vredi isto kao ${worth}eura  za ${years} godina`; 
 
 
 
-document.querySelector('.container').appendChild(newElement); //kad ubacujem jako bitna tacka da se stavi pre moje div klase 
+document.querySelector('.container').appendChild(newElement);
 
 
 }
